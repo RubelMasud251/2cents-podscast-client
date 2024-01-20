@@ -4,7 +4,7 @@ import Image from "next/image";
 import { TypeAnimation } from "react-type-animation";
 import BannerImg from "@/public/img.webp";
 
-const homeBanner = () => {
+const Banner = () => {
   return (
     <div className="grid md:grid-cols-2 secondary_bg items-center justify-between pt-10  container-div">
       <div className="Banner-info text-white flex flex-col gap-8 md:translate-x-20">
@@ -45,4 +45,4 @@ const homeBanner = () => {
   );
 };
 
-export default homeBanner;
+export default Banner;

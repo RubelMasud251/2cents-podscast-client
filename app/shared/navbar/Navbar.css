@@ -1,0 +1,16 @@
+.submenu {
+    position: absolute;
+    top: 60px;
+    display: none;
+    background-color: rgb(43, 43, 43);
+    color: #facc15;
+    left: auto;
+    right: auto;
+    width: 200px;
+}
+
+.nav-text:hover+.submenu,
+.submenu:hover {
+    display: block;
+}
+

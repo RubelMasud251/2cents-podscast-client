@@ -1,5 +1,5 @@
 import Image from "next/image";
-import Banner from "./app/components/home/banner";
+import Banner from "./components/home/banner";
 import Awards from "./components/home/Awards";
 import MeetInfo from "./components/home/MeetInfo";
 import FeaturePodsCast from "./components/home/FeaturePodcast";

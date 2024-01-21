@@ -6,18 +6,18 @@ const TabSection = () => {
   return (
     <div className="">
       <h2 className="Title text-center">Know more about me</h2>
-      <div className="grid md:grid-cols-4 sm:grid-cols-3 grid-cols-2 justify-center text-center mx-auto items-center py-12">
-        <button className="Tab-btn">Biography</button>
-        <button className="Tab-btn">Education</button>
-        <button className="Tab-btn">Childhood</button>
-        <button className="Tab-btn">Career</button>
+      <div className="grid md:grid-cols-4 sm:grid-cols-3 grid-cols-2 gap-8 justify-center text-center mx-auto items-center py-12">
+        <button className="Tab-btn ">Biography</button>
+        <button className="Tab-btn ">Education</button>
+        <button className="Tab-btn ">Childhood</button>
+        <button className="Tab-btn ">Career</button>
       </div>
       {/* Biography section */}
       <div id="biography" className="">
         <h2 className=" text-2xl font-semibold pb-4"> Biography</h2>
         <div className="grid md:grid-cols-2  justify-between items-center ">
           <div className="info">
-            <p className="text-lg leading-8 text-gray-100">
+            <p className="md:text-lg  md:leading-8 leading-6 text-gray-100 pb-2">
               I come from a family of doctors. But I knew I didn’t want to be a
               doctor so engineering was my next best option. I got into an
               engineering college. I had gotten into fitness by then. I was a
@@ -45,7 +45,7 @@ const TabSection = () => {
       {/* Childhood section */}
       <div id="childhood" className="py-12">
         <h2 className=" text-2xl font-semibold pb-4"> Childhood</h2>
-        <p className="text-lg leading-8 text-gray-100">
+        <p className="md:text-lg  md:leading-8 leading-6 text-gray-100 pb-2">
           As a kid, I was super notorious and a confident child. I used to take
           part in various competitions. But during my teenage, I was bullied a
           lot and ended up losing that confidence. I was overweight. When you
@@ -69,7 +69,7 @@ const TabSection = () => {
           <div className="flex flex-col ">
             <h4 className="text-xl font-semibold">Career</h4>
             <h5 className="py-6 text-lg">Start Of BeerBiceps</h5>
-            <p className="text-lg leading-8 text-gray-100">
+            <p className="md:text-lg  md:leading-8 leading-6 text-gray-100 pb-2">
               To promote that I was suggested to start promoting it, wherein
               YouTube happened. BeerBiceps channel started with fitness and
               cooking. After that, we got into self-development, and styling as
@@ -82,7 +82,7 @@ const TabSection = () => {
         <div className="">
           <p className="text-lg leading-8 text-gray-100">Monk- Entertainment</p>
           <br /> <br />
-          <p className="text-lg leading-8 text-gray-100">
+          <p className="md:text-lg  md:leading-8 leading-6 text-gray-100 pb-2">
             Viraj started managing me and soon we realized the gap between the
             budding influencers and the brands. So to build this gap we started
             a talent-managing company called Monk- Entertainment. We started our
@@ -97,7 +97,7 @@ const TabSection = () => {
         <div className="">
           <p className="text-lg leading-8 text-gray-100">Start of Podcasting</p>
           <br /> <br />
-          <p className="text-lg leading-8 text-gray-100">
+          <p className="md:text-lg  md:leading-8 leading-6 text-gray-100 pb-2">
             Viraj started managing me and soon we realized the gap between the
             budding influencers and the brands. So to build this gap we started
             a talent-managing company called Monk- Entertainment. We started our

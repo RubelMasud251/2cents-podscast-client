@@ -7,10 +7,10 @@ import { MdOutlineMailOutline } from "react-icons/md";
 const ContactPage = () => {
   return (
     <div>
-      <div className="flex ">
-        <div className="w-[65%] justify-center  secondary_bg text-white py-16">
-          <div className="w-3/4 mx-auto">
-            <h2 className="text-6xl py-4 font-semibold pb-4 ">
+      <div className="md:flex ">
+        <div className="md:w-[65%] justify-center  secondary_bg text-white py-16">
+          <div className="md:w-3/4 px-4 mx-auto">
+            <h2 className="md:text-6xl text-4xl py-4 font-semibold pb-4 ">
               Get in <span className="primary_color">touch</span>
             </h2>
             <p className="text-xl font-semibold pb-8">
@@ -21,24 +21,24 @@ const ContactPage = () => {
               <input
                 type="text"
                 placeholder="Name"
-                className="border bg-transparent  p-4 w-[55%] rounded-md block"
+                className="border bg-transparent  p-4 md:w-[55%] rounded-md block"
               />
               <input
                 type="text"
                 placeholder="Email"
-                className="border bg-transparent  p-4 w-[55%] rounded-md block"
+                className="border bg-transparent  p-4 md:w-[55%] rounded-md block"
               />
               <input
                 type="text"
                 placeholder="Message"
-                className="border bg-transparent  p-4 w-[55%] rounded-md block"
+                className="border bg-transparent  p-4 md:w-[55%] rounded-md block"
               />
               <input type="submit" value="Send" className="primary_btn w-fit" />
             </form>
             {/* email */}
-            <div className="flex items-center gap-2 pt-8">
-              <div className="flex items-center gap-4">
-                <div className="">
+            <div className="md:flex justify-center text-center items-center gap-8 md:gap-2  pt-8">
+              <div className="md:flex items-center gap-4">
+                <div className="text-center  flex justify-center">
                   <MdOutlineMailOutline size={60} />
                 </div>
                 <div className="">
@@ -46,8 +46,8 @@ const ContactPage = () => {
                   <p className="primary_color">careers@beerbiceps.com </p>
                 </div>
               </div>
-              <div className="flex items-center gap-4">
-                <div className="">
+              <div className="md:flex items-center gap-4">
+                <div className="text-center  flex justify-center">
                   <MdOutlineMailOutline size={60} />
                 </div>
                 <div className="">
@@ -58,11 +58,11 @@ const ContactPage = () => {
             </div>
           </div>
         </div>
-        <div className="w-[35%] primary_bg flex items-center">
+        <div className="md:w-[35%] primary_bg flex items-center">
           <Image
             src={ContactUsImg}
             alt="ContactUsImg"
-            className="w-[80%] -translate-x-10"
+            className="w-[80%] md:ml-0  mx-auto md:-translate-x-10"
           />
         </div>
       </div>

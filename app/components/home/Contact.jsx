@@ -5,12 +5,12 @@ import logo from "@/public/Logo.png";
 const Contact = () => {
   return (
     <div className="">
-      <div className="grid md:grid-cols-2 gap-4 items-center w-7/12 py-10 bg-slate-50 border-r p-12">
-        <div className="w-64 h-64 rounded-full">
+      <div className="grid md:grid-cols-2 gap-4 items-center md:w-7/12 py-10 md:bg-slate-50 border-r md:p-12 p-4">
+        <div className="md:w-64 w-40 mx-auto rounded-full">
           <Image src={logo} alt="logo" className="rounded-full" />
         </div>
         <div className="">
-          <h3 className="Title leading-10 mb-8">
+          <h3 className="Title leading-10 mb-8 md:text-left text-center">
             For A Weekly Update From TEAM BEERBICEPS
           </h3>
           <form>

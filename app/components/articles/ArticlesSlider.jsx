@@ -41,9 +41,9 @@ const ArticlesSlider = () => {
         modules={[Autoplay]}
         className="mySwiper"
       >
-        <SwiperSlide>
+        <SwiperSlide className="">
           <Link href="">
-            <div className="bg-slate-100 p-4 rounded">
+            <div className="bg-slate-100 p-4 rounded mx-12">
               <Image src={ArticleImg} alt="Img" className="h-60" />
               <h4 className="text-black/80 text-md font-semibold text-center pt-2">
                 Award form Governor of Maharashtra
@@ -51,9 +51,9 @@ const ArticlesSlider = () => {
             </div>
           </Link>
         </SwiperSlide>
-        <SwiperSlide>
+        <SwiperSlide className="">
           <Link href="">
-            <div className="bg-slate-100 p-4 rounded">
+            <div className="bg-slate-100 p-4 rounded mx-12">
               <Image src={ArticleImg} alt="Img" className="h-60" />
               <h4 className="text-black/80 text-md font-semibold text-center pt-2">
                 Award form Governor of Maharashtra
@@ -61,9 +61,9 @@ const ArticlesSlider = () => {
             </div>
           </Link>
         </SwiperSlide>
-        <SwiperSlide>
+        <SwiperSlide className="">
           <Link href="">
-            <div className="bg-slate-100 p-4 rounded">
+            <div className="bg-slate-100 p-4 rounded mx-12">
               <Image src={ArticleImg} alt="Img" className="h-60" />
               <h4 className="text-black/80 text-md font-semibold text-center pt-2">
                 Award form Governor of Maharashtra
@@ -71,69 +71,9 @@ const ArticlesSlider = () => {
             </div>
           </Link>
         </SwiperSlide>
-        <SwiperSlide>
+        <SwiperSlide className="">
           <Link href="">
-            <div className="bg-slate-100 p-4 rounded">
-              <Image src={ArticleImg} alt="Img" className="h-60" />
-              <h4 className="text-black/80 text-md font-semibold text-center pt-2">
-                Award form Governor of Maharashtra
-              </h4>
-            </div>
-          </Link>
-        </SwiperSlide>
-        <SwiperSlide>
-          <Link href="">
-            <div className="bg-slate-100 p-4 rounded">
-              <Image src={ArticleImg} alt="Img" className="h-60" />
-              <h4 className="text-black/80 text-md font-semibold text-center pt-2">
-                Award form Governor of Maharashtra
-              </h4>
-            </div>
-          </Link>
-        </SwiperSlide>
-        <SwiperSlide>
-          <Link href="">
-            <div className="bg-slate-100 p-4 rounded">
-              <Image src={ArticleImg} alt="Img" className="h-60" />
-              <h4 className="text-black/80 text-md font-semibold text-center pt-2">
-                Award form Governor of Maharashtra
-              </h4>
-            </div>
-          </Link>
-        </SwiperSlide>
-        <SwiperSlide>
-          <Link href="">
-            <div className="bg-slate-100 p-4 rounded">
-              <Image src={ArticleImg} alt="Img" className="h-60" />
-              <h4 className="text-black/80 text-md font-semibold text-center pt-2">
-                Award form Governor of Maharashtra
-              </h4>
-            </div>
-          </Link>
-        </SwiperSlide>
-        <SwiperSlide>
-          <Link href="">
-            <div className="bg-slate-100 p-4 rounded">
-              <Image src={ArticleImg} alt="Img" className="h-60" />
-              <h4 className="text-black/80 text-md font-semibold text-center pt-2">
-                Award form Governor of Maharashtra
-              </h4>
-            </div>
-          </Link>
-        </SwiperSlide>
-        <SwiperSlide>
-          <Link href="">
-            <div className="bg-slate-100 p-4 rounded">
-              <Image src={ArticleImg} alt="Img" className="h-60" />
-              <h4 className="text-black/80 text-md font-semibold text-center pt-2">
-                Award form Governor of Maharashtra
-              </h4>
-            </div>
-          </Link>
-        </SwiperSlide>
-        <SwiperSlide>
-          <Link href="">
-            <div className="bg-slate-100 p-4 rounded">
+            <div className="bg-slate-100 p-4 rounded mx-12">
               <Image src={ArticleImg} alt="Img" className="h-60" />
               <h4 className="text-black/80 text-md font-semibold text-center pt-2">
                 Award form Governor of Maharashtra

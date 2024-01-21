@@ -103,8 +103,8 @@ const Navbar = () => {
       <ul
         className={
           nav
-            ? "absolute md:hidden left-0 right-0  top-24 w-[100%]  bg-[#fff] ease-in-out duration-300"
-            : "ease-in-out w-[60%] h-screen duration-300 absolute left-0  top-[-100%]"
+            ? "absolute md:hidden left-0 right-0 top-24 w-[100%]  bg-[#fff] z-10 ease-in-out duration-300"
+            : "ease-in-out w-[60%] h-screen duration-300 absolute left-0 right-0 z-10  top-[-100%]"
         }
       >
         {/* Mobile Navigation Items */}
@@ -114,7 +114,11 @@ const Navbar = () => {
             className="text-black border-t py-1 border-gray-200 cursor-pointer mobileMenu-item "
             onClick={() => toggleSubMenus(i)}
           >
-            <Link href={item.link} className="flex justify-between py-2 px-4 ">
+            <Link
+              href={item.link}
+              className="flex justify-between py-2 px-4 "
+              onClick={handleNav}
+            >
               {" "}
               {item.text}
               {item.icon}
@@ -127,6 +131,7 @@ const Navbar = () => {
                   <li
                     key={j}
                     className=" border-t border-gray-200 primary_color py-2"
+                    onClick={handleNav}
                   >
                     <Link href="" className="py-1 px-8 flex gap-2 items-center">
                       {subitem.subicon}
@@ -139,7 +144,7 @@ const Navbar = () => {
           </li>
         ))}
 
-        <Link href="/contact">
+        <Link href="/contact" onClick={handleNav}>
           <li className="nav_link px-4 py-2 border-t border-gray-200">
             Contact us
           </li>

@@ -7,7 +7,7 @@ import BannerImg from "@/public/img.webp";
 const Banner = () => {
   return (
     <div className="grid md:grid-cols-2 secondary_bg items-center justify-between pt-10  container-div">
-      <div className="Banner-info text-white flex flex-col gap-8 md:translate-x-20">
+      <div className="Banner-info text-white flex flex-col md:gap-8 gap-4 md:translate-x-20">
         <h4 className="text-xl font-semibold">Welcome to BeerBiceps</h4>
         <h4 className="text-xl font-semibold">Take your first step towards </h4>
         <TypeAnimation
@@ -16,22 +16,22 @@ const Banner = () => {
             "Self-Growth",
             "A Healthy Lifestyle",
             " Achieving Greatness",
-            "Better Relationships Magnetic",
+            " Relationships Magnetic",
           ]}
           wrapper="div"
           repeat={Infinity}
-          className="primary_color text-6xl font-semibold"
+          className="primary_color md:text-6xl text-4xl font-semibold "
         />
-        <h2 className="text-6xl font-semibold ">with BeerBiceps</h2>
+        <h2 className="md:text-6xl text-4xl font-semibold">with BeerBiceps</h2>
         <form>
-          <div className="bg-yellow-500 p-1 w-fit flex justify-center rounded-md">
+          <div className="bg-yellow-500 p-1 md:w-fit w-full flex justify-center rounded-md">
             <input
               type="text"
-              className="w-2/4 py-1"
+              className="w-3/4 py-1 pl-4 outline-none"
               placeholder="enter your email"
             />
             <input
-              className="text-black font-semibold "
+              className="text-black font-semibold pl-2 text-center"
               type="submit"
               value="Subscribe"
             />

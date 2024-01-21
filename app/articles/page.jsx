@@ -7,7 +7,7 @@ import BrandLogo from "@/public/Brand.webp";
 const Articles = () => {
   return (
     <div className="bg-yellow-200 ">
-      <h2 className="text-6xl text-center font-semibold  pt-20 pb-8">
+      <h2 className="md:text-6xl text-2xl text-center font-semibold  pt-20 pb-8">
         {" "}
         Articles
       </h2>
@@ -21,19 +21,55 @@ const Articles = () => {
             {" "}
             Brands worked with
           </h2>
-          <div className="flex flex-col gap-12">
-            <div className="grid grid-cols-4 ">
-              <Image src={BrandLogo} alt="BrandLogo" className="w-32 mx-auto" />
-              <Image src={BrandLogo} alt="BrandLogo" className="w-32 mx-auto" />
-              <Image src={BrandLogo} alt="BrandLogo" className="w-32 mx-auto" />
-              <Image src={BrandLogo} alt="BrandLogo" className="w-32 mx-auto" />
+          <div className="flex flex-col gap-4">
+            <div className="grid md:grid-cols-4 grid-cols-2 ">
+              <Image
+                src={BrandLogo}
+                alt="BrandLogo"
+                className="md:w-32 w-48 mx-auto"
+              />
+              <Image
+                src={BrandLogo}
+                alt="BrandLogo"
+                className="md:w-32 w-48 mx-auto"
+              />
+              <Image
+                src={BrandLogo}
+                alt="BrandLogo"
+                className="md:w-32 w-48 mx-auto"
+              />
+              <Image
+                src={BrandLogo}
+                alt="BrandLogo"
+                className="md:w-32 w-48 mx-auto"
+              />
             </div>
-            <div className="grid grid-cols-5 ">
-              <Image src={BrandLogo} alt="BrandLogo" className="w-32 mx-auto" />
-              <Image src={BrandLogo} alt="BrandLogo" className="w-32 mx-auto" />
-              <Image src={BrandLogo} alt="BrandLogo" className="w-32 mx-auto" />
-              <Image src={BrandLogo} alt="BrandLogo" className="w-32 mx-auto" />
-              <Image src={BrandLogo} alt="BrandLogo" className="w-32 mx-auto" />
+            <div className="grid md:grid-cols-5 grid-cols-2 ">
+              <Image
+                src={BrandLogo}
+                alt="BrandLogo"
+                className="md:w-32 w-48 mx-auto"
+              />
+              <Image
+                src={BrandLogo}
+                alt="BrandLogo"
+                className="md:w-32 w-48 mx-auto"
+              />
+              <Image
+                src={BrandLogo}
+                alt="BrandLogo"
+                className="md:w-32 w-48 mx-auto"
+              />
+              <Image
+                src={BrandLogo}
+                alt="BrandLogo"
+                className="md:w-32 w-48 mx-auto"
+              />
+              <Image
+                src={BrandLogo}
+                alt="BrandLogo"
+                className="md:w-32 w-48 mx-auto"
+              />
             </div>
           </div>
         </div>

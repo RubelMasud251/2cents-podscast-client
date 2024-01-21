@@ -3,8 +3,8 @@ import { FaFacebook } from "react-icons/fa";
 
 const Community = () => {
   return (
-    <div className="secondary_bg text-white container-div py-10">
-      <div className="md:w-4/6 px-auto grid md:grid-cols-2 justify-between gap-10 items-center mx-auto">
+    <div className="secondary_bg text-white container-div pb-10">
+      <div className="md:w-5/6 px-auto grid md:grid-cols-2 md:text-left text-center justify-between gap-10 items-center mx-auto">
         <div className="">
           <h3 className="Title mb-4">Join the community</h3>
           <p>
@@ -13,22 +13,12 @@ const Community = () => {
             conversation forward.
           </p>
         </div>
-        <div className="grid grid-cols-5 text-center justify-center gap-12 items-center">
-          <div className="">
-            <FaFacebook size={80} />
-          </div>
-          <div className="">
-            <FaFacebook size={80} />
-          </div>
-          <div className="">
-            <FaFacebook size={80} />
-          </div>
-          <div className="">
-            <FaFacebook size={80} />
-          </div>
-          <div className="">
-            <FaFacebook size={80} />
-          </div>
+        <div className="flex justify-center text-4xl md:text-7xl gap-2">
+          <FaFacebook />
+          <FaFacebook />
+          <FaFacebook />
+          <FaFacebook />
+          <FaFacebook />
         </div>
       </div>
     </div>

@@ -6,9 +6,9 @@ const CategoryDropdown = () => {
   const options = ["Entertainment", "Sports", "Spirituality"];
   const defaultOption = options[0];
   return (
-    <div className=" flex justify-end">
+    <div className="flex justify-end">
       <Dropdown
-        className="w-fit "
+        className="md:w-fit w-full "
         options={options}
         value={defaultOption}
         placeholder="Select an option"

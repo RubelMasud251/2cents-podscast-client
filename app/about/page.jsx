@@ -11,11 +11,11 @@ const About = () => {
         {/* heading section */}
         <div className="grid md:grid-cols-2  justify-between items-center py-12">
           <div className="info">
-            <h2 className="text-6xl md:w-2/4 font-semibold pb-4">
+            <h2 className="md:text-6xl text-3xl md:w-2/4 font-semibold pb-4">
               {" "}
               Ranveer Allahbadia
             </h2>
-            <p className="text-xl leading-8 text-gray-100">
+            <p className="md:text-xl md:leading-8 leading-7 text-gray-100">
               BeerBicpes a.k.a. Ranveer Allahbadia is an entrepreneur, YouTuber,
               Podcaster, and content creator. My life mantra is to explore the
               unexplored. But how did this journey start? From being an average

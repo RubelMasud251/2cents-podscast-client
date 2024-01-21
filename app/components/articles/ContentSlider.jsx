@@ -10,7 +10,7 @@ import { Autoplay } from "swiper/modules";
 const ContentSlider = () => {
   return (
     <div>
-      <h2 className="Title text-center  md:w-9/12 mx-auto">
+      <h2 className="Title text-center  md:w-9/12 mx-auto md:px-12 px-2">
         {" "}
         Few awards and recognitions Beerbiceps has gained in few years
       </h2>

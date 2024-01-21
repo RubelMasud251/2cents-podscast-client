@@ -45,118 +45,13 @@ const FeaturePodsCast = () => {
         >
           <SwiperSlide>
             <Link href="">
-              <div className="podcast-card  bg-gray-100 rounded-md text-black ">
-                <Image src={Logo} alt="img" className="rounded-lg-t h-60" />
+              <div className="podcast-card  bg-gray-500 text-white rounded-md text-black ">
+                <Image src={Logo} alt="img" className="rounded-lg-t h-80" />
                 <div className="py-2 px-4">
-                  <h3 className="text-md font-semibold text-gray-500 leading-10">
+                  <h3 className="text-md font-semibold  leading-10">
                     The Show
                   </h3>
-                  <h3 className="text-2xl font-semibold text-gray-700 leading-9">
-                    Md Rubel Masud
-                  </h3>
-                </div>
-              </div>
-            </Link>
-          </SwiperSlide>
-          <SwiperSlide>
-            <Link href="">
-              <div className="podcast-card  bg-gray-100 rounded-md text-black ">
-                <Image src={Logo} alt="img" className="rounded-lg-t h-60" />
-                <div className="py-2 px-4">
-                  <h3 className="text-md font-semibold text-gray-500 leading-10">
-                    The Show
-                  </h3>
-                  <h3 className="text-2xl font-semibold text-gray-700 leading-9">
-                    Md Rubel Masud
-                  </h3>
-                </div>
-              </div>
-            </Link>
-          </SwiperSlide>
-          <SwiperSlide>
-            <Link href="">
-              <div className="podcast-card  bg-gray-100 rounded-md text-black ">
-                <Image src={Logo} alt="img" className="rounded-lg-t h-60" />
-                <div className="py-2 px-4">
-                  <h3 className="text-md font-semibold text-gray-500 leading-10">
-                    The Show
-                  </h3>
-                  <h3 className="text-2xl font-semibold text-gray-700 leading-9">
-                    Md Rubel Masud
-                  </h3>
-                </div>
-              </div>
-            </Link>
-          </SwiperSlide>
-          <SwiperSlide>
-            <Link href="">
-              <div className="podcast-card  bg-gray-100 rounded-md text-black ">
-                <Image src={Logo} alt="img" className="rounded-lg-t h-60" />
-                <div className="py-2 px-4">
-                  <h3 className="text-md font-semibold text-gray-500 leading-10">
-                    The Show
-                  </h3>
-                  <h3 className="text-2xl font-semibold text-gray-700 leading-9">
-                    Md Rubel Masud
-                  </h3>
-                </div>
-              </div>
-            </Link>
-          </SwiperSlide>
-          <SwiperSlide>
-            <Link href="">
-              <div className="podcast-card  bg-gray-100 rounded-md text-black ">
-                <Image src={Logo} alt="img" className="rounded-lg-t h-60" />
-                <div className="py-2 px-4">
-                  <h3 className="text-md font-semibold text-gray-500 leading-10">
-                    The Show
-                  </h3>
-                  <h3 className="text-2xl font-semibold text-gray-700 leading-9">
-                    Md Rubel Masud
-                  </h3>
-                </div>
-              </div>
-            </Link>
-          </SwiperSlide>
-          <SwiperSlide>
-            <Link href="">
-              <div className="podcast-card  bg-gray-100 rounded-md text-black ">
-                <Image src={Logo} alt="img" className="rounded-lg-t h-60" />
-                <div className="py-2 px-4">
-                  <h3 className="text-md font-semibold text-gray-500 leading-10">
-                    The Show
-                  </h3>
-                  <h3 className="text-2xl font-semibold text-gray-700 leading-9">
-                    Md Rubel Masud
-                  </h3>
-                </div>
-              </div>
-            </Link>
-          </SwiperSlide>
-          <SwiperSlide>
-            <Link href="">
-              <div className="podcast-card  bg-gray-100 rounded-md text-black ">
-                <Image src={Logo} alt="img" className="rounded-lg-t h-60" />
-                <div className="py-2 px-4">
-                  <h3 className="text-md font-semibold text-gray-500 leading-10">
-                    The Show
-                  </h3>
-                  <h3 className="text-2xl font-semibold text-gray-700 leading-9">
-                    Md Rubel Masud
-                  </h3>
-                </div>
-              </div>
-            </Link>
-          </SwiperSlide>
-          <SwiperSlide>
-            <Link href="">
-              <div className="podcast-card  bg-gray-100 rounded-md text-black ">
-                <Image src={Logo} alt="img" className="rounded-lg-t h-60" />
-                <div className="py-2 px-4">
-                  <h3 className="text-md font-semibold text-gray-500 leading-10">
-                    The Show
-                  </h3>
-                  <h3 className="text-2xl font-semibold text-gray-700 leading-9">
+                  <h3 className="text-2xl font-semibold  leading-9">
                     Md Rubel Masud
                   </h3>
                 </div>

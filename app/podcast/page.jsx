@@ -5,7 +5,7 @@ import PodCastSlider from "../components/podscasts/PodCastSlider";
 
 const PodsCasts = async () => {
   const allPodsCast = await getAllPadsCast();
-  console.log(PodsCasts);
+  // console.log(allPodsCast);
 
   return (
     <div>

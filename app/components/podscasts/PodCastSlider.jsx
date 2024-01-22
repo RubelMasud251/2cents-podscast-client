@@ -10,7 +10,7 @@ import "swiper/css/navigation";
 // import required modules
 import { Autoplay } from "swiper/modules";
 
-const PodCastSlider = ({ allPodsCast }) => {
+const PodCastSlider = () => {
   return (
     <Swiper
       slidesPerView={3}
@@ -39,21 +39,19 @@ const PodCastSlider = ({ allPodsCast }) => {
       modules={[Autoplay]}
       className="mySwiper"
     >
-      {allPodsCast.map((podcast) => (
-        <SwiperSlide key={podcast._id}>
-          <Link href="">
-            <div className="podcast-card py-2 px-4 bg-gray-100 rounded-md text-black  ">
-              <h3 className="text-md font-semibold text-gray-500 leading-10">
-                The Show
-              </h3>
-              <h3 className="text-2xl font-semibold text-gray-700 leading-9">
-                Md Rubel Masud
-              </h3>
-              <Image src={Img} alt="img" className="rounded-lg h-48" />
-            </div>
-          </Link>
-        </SwiperSlide>
-      ))}
+      <SwiperSlide>
+        <Link href="">
+          <div className="podcast-card py-2 px-4 bg-gray-100 rounded-md text-black  ">
+            <h3 className="text-md font-semibold text-gray-500 leading-10">
+              The Show
+            </h3>
+            <h3 className="text-2xl font-semibold text-gray-700 leading-9">
+              Md Rubel Masud
+            </h3>
+            <Image src={Img} alt="img" className="rounded-lg h-48" />
+          </div>
+        </Link>
+      </SwiperSlide>
     </Swiper>
   );
 };
